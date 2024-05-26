@@ -1,0 +1,6 @@
+<!ELEMENT flori (floare+)>
+<!ELEMENT floare (nume, culoare, marime, pret)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT culoare (#PCDATA)>
+<!ELEMENT marime (#PCDATA)>
+<!ELEMENT pret (#PCDATA)>
